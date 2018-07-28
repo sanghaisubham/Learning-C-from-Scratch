@@ -1,0 +1,7 @@
+C:\Users\Subham\source\repos\Basic_Project\Basic_Project\bin\Debug\Basic_Project.exe.config
+C:\Users\Subham\source\repos\Basic_Project\Basic_Project\bin\Debug\Basic_Project.exe
+C:\Users\Subham\source\repos\Basic_Project\Basic_Project\bin\Debug\Basic_Project.pdb
+C:\Users\Subham\source\repos\Basic_Project\Basic_Project\obj\Debug\Basic_Project.csprojResolveAssemblyReference.cache
+C:\Users\Subham\source\repos\Basic_Project\Basic_Project\obj\Debug\Basic_Project.csproj.CoreCompileInputs.cache
+C:\Users\Subham\source\repos\Basic_Project\Basic_Project\obj\Debug\Basic_Project.exe
+C:\Users\Subham\source\repos\Basic_Project\Basic_Project\obj\Debug\Basic_Project.pdb
