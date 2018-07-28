@@ -47,8 +47,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>
-    </StartupObject>
+    <StartupObject>Basic_Project.MyMainclass</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -61,8 +60,46 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="2Darray.cs" />
+    <Compile Include="Abstract.cs" />
+    <Compile Include="Checked_Unchecked.cs" />
+    <Compile Include="Collection_ArrayList.cs" />
+    <Compile Include="Collection_Queue.cs" />
+    <Compile Include="CommandLineSum.cs" />
+    <Compile Include="Constructor.cs" />
+    <Compile Include="Container_HashTable.cs" />
+    <Compile Include="CustomException.cs" />
     <Compile Include="Custom_Queue.cs" />
+    <Compile Include="Custom_Stack.cs" />
+    <Compile Include="DelegateExample.cs" />
+    <Compile Include="Delegates.cs" />
+    <Compile Include="Exception_Handling.cs" />
+    <Compile Include="Explicit_Interface.cs" />
+    <Compile Include="Inheritance.cs" />
+    <Compile Include="Interface.cs" />
+    <Compile Include="LeapYear.cs" />
+    <Compile Include="LeapYear_Static.cs" />
+    <Compile Include="Leap_Using_Loop.cs" />
+    <Compile Include="MultiThreading.cs" />
+    <Compile Include="Multithreading_Abort.cs" />
+    <Compile Include="MultiThreading_Join.cs" />
+    <Compile Include="Multithreading_Synchronization.cs" />
+    <Compile Include="Multithreading_Wait.cs" />
+    <Compile Include="Mutex_Semaphore.cs" />
+    <Compile Include="MyClass.cs" />
+    <Compile Include="OOPS_Basics.cs" />
+    <Compile Include="Pass_Value_Ref_Out.cs" />
+    <Compile Include="Person.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Property_GetSet.cs" />
+    <Compile Include="RuntimePoly_Virtual.cs" />
+    <Compile Include="SquareRoot.cs" />
+    <Compile Include="Stack.cs" />
+    <Compile Include="Static_Properties.cs" />
+    <Compile Include="StringBuilder.cs" />
+    <Compile Include="Threading%28Tick_Tock_Tag%29.cs" />
+    <Compile Include="Threading_Sync%28Tick_Tock%29.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

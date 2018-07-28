@@ -29,7 +29,8 @@ namespace Basic_Project
                     return;
                 }
                 Console.Write("Tick ");
-                Monitor.Pulse(lockobj);//Signalling the other thread which was previously in waiting queue
+                Monitor.Pulse(lockobj);
+                //Signalling the other thread which was previously in waiting queue
                 Monitor.Wait(lockobj);//Waiting 
             }
         }
@@ -43,7 +44,8 @@ namespace Basic_Project
                     return;
                 }
                 Console.WriteLine("Tock ");
-                Monitor.Pulse(lockobj);//Signalling the other thread which was previously in waiitng queue
+                Monitor.Pulse(lockobj);
+                //Signalling the other thread which was previously in watitng queue
                 Monitor.Wait(lockobj);//Waiting 
             }
         }
@@ -63,7 +65,7 @@ namespace Basic_Project
             }
         }
     }
-    class Mainclass
+    class Mainclass_TickTock
     {
         static void Main(string[] args)
         {

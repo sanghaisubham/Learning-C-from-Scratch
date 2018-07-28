@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 //Mutex is mutually exclusive lock
-//lock obj is made private , 
+//lock obj is made private 
 namespace Basic_Project
 {
     class Mutex_Semaphore
@@ -33,7 +33,7 @@ namespace Basic_Project
             for (int i = 10; i <= 15; i++)
                 Console.WriteLine(i);
            
-            Console.WriteLine("{0} Relaesing Mutex..", Name);
+            Console.WriteLine("{0} Releasing Mutex..", Name);
             mutex.ReleaseMutex();
 
             //Console.WriteLine("Mutex Released..");
@@ -46,14 +46,21 @@ namespace Basic_Project
         {
             Mutex_Semaphore ex = new Mutex_Semaphore("Child");
             Console.WriteLine("Main Thread Waiting");
+            /*Here "Main Thread Waiting" statement can come in between the statements, while Child Thread is 
+             * Running but if we put this statement within the mutex block then it wont interfere in the child 
+             Thread and would be printed before that or after that */
             Mutex_Semaphore.mutex.WaitOne();
             Console.WriteLine("Main Thread Working..");
             for (int i = 100; i <= 105; i++)
                 Console.WriteLine(i);
             Console.WriteLine("Main Releasing Mutex");
+            //All the statements between accquiring mutex and releasing mutex is run synchronously
             Mutex_Semaphore.mutex.ReleaseMutex();
 
 
         }
     }
 }
+/*In Mutex two mutex blocks never interfere .
+ * While statements outside the mutex block can interfere with the other mutex block , which can be
+ * taken care of by putting this statement also within a mutext block*/

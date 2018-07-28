@@ -74,7 +74,7 @@ namespace Basic_Project
         public int price;
         public static void Display()
         {
-            price = 1000;//Error because non static data member is accessed in a static method
+         //   price = 1000;//Error because non static data member is accessed in a static method
             
             /*non static data member can be declared inside a static function but cannot be accessed inside 
             static method*/
@@ -85,12 +85,12 @@ namespace Basic_Project
     }
     static class Book
     {
-        public int price;//non static data member cant be declared within a static class
+       // public int price;//non static data member cant be declared within a static class
         public static int data;
-        public Book() //Same Error(Creating Non static constructor)
-        {
-            price = 0;
-        }
+      //  public Book() //Same Error(Creating Non static constructor)
+       // {
+        //    price = 0;
+        //}
         static Book()
         {
             data = 2100;
@@ -114,7 +114,7 @@ namespace Basic_Project
              * For statvar there is only one copy for all the objects. 
              */
 
-            Book b1= new Book(); //cant instantiate a static class
+          //  Book b1= new Book(); //cant instantiate a static class
             StaticConcept obj1 = new StaticConcept();
 
             StaticConcept obj2 = new StaticConcept();

@@ -32,14 +32,14 @@ namespace Basic_Project
             //Static Methods=>Class reference(Direct without creating any object)
             //Non Static Methods=>Object reference
 
-            result = MathClass.Leap2(year); //For static we dont need to create any object
+            result = MathClass1.Leap2(year); //For static we dont need to create any object
             if (result == true)
                 Console.WriteLine("The year {0} is a Leap Year", year);
             else
                 Console.WriteLine("The Year {0}  is a Non Leap Year", year);
         }
     }
-    class MathClass
+    class MathClass1
     {
         public bool Leap(int year)
         {

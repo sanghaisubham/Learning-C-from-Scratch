@@ -5,8 +5,8 @@
  
  */
  /*Exception
-  * System Exception=>base class of all Exception classes.
-  * Application Exception=>base class of non-fatal errors
+  * System Exception=>base class of all Exception classes(CLR generated errors).
+  * Application Exception=>base class of non-fatal errors(error raised on business rule violation)
   * 
   */
 using System;

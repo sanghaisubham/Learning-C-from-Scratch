@@ -18,7 +18,7 @@ namespace Basic_Project
                 Console.WriteLine("Enter A Year: ");
                 year = Convert.ToInt32(Console.ReadLine());
 
-                MathClass mathObj = new MathClass();
+                MathClass2 mathObj = new MathClass2();
                 result = mathObj.Leap(year);
                 if (result == true)
                     Console.WriteLine("The year {0} is a Leap Year", year);
@@ -34,7 +34,7 @@ namespace Basic_Project
             Console.WriteLine("End of Program");
         }
     }
-    class MathClass
+    class MathClass2
     {
         public bool Leap(int year)
         {

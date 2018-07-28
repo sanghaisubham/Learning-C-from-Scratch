@@ -1,46 +1,46 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿//using System;
+//using System.Collections.Generic;
+//using System.Linq;
+//using System.Text;
+//using System.Threading.Tasks;
 
-namespace Basic_Project
-{
-    class User
-    {
-        public string UserName,Password;
+//namespace Basic_Project
+//{
+//    class User
+//    {
+//        public string UserName,Password;
 
 
-    }
-    class Database
-    {
-        List<Users> AllUsers
-        {
-            get
-            {
+//    }
+//    class Database
+//    {
+//        List<Users> AllUsers
+//        {
+//            get
+//            {
 
-            }
-            set
-            {
+//            }
+//            set
+//            {
 
-            }
-        }
-    }
-    class Security
-    {
-        public bool Authenticate(User user)
-        {
+//            }
+//        }
+//    }
+//    class Security
+//    {
+//        public void Authenticate(User user)
+//        {
 
-        }
-    }
-    class Resource
-    {
-        private GetData()
-        {
+//        }
+//    }
+//    class Resource
+//    {
+//        private void GetData()
+//        {
 
-        }
-    }
-    class Assignment4
-    {
-    }
-}
+//        }
+//    }
+//    class Assignment4
+//    {
+//    }
+//}

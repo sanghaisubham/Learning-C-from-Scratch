@@ -36,7 +36,7 @@ using System.Threading.Tasks;
 
 namespace Basic_Project
 {
-    class Program
+    class Program1
     {
         static void Main(string[] args)
         {
