@@ -1,0 +1,13 @@
+C:\Users\Administrator\Desktop\Abhishek Chaudhary\DotNet\CSharpAssignment\CSharpAssignment\bin\Debug\CSharpAssignment.exe.config
+C:\Users\Administrator\Desktop\Abhishek Chaudhary\DotNet\CSharpAssignment\CSharpAssignment\bin\Debug\CSharpAssignment.exe
+C:\Users\Administrator\Desktop\Abhishek Chaudhary\DotNet\CSharpAssignment\CSharpAssignment\bin\Debug\CSharpAssignment.pdb
+C:\Users\Administrator\Desktop\Abhishek Chaudhary\DotNet\CSharpAssignment\CSharpAssignment\obj\Debug\CSharpAssignment.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Abhishek Chaudhary\DotNet\CSharpAssignment\CSharpAssignment\obj\Debug\CSharpAssignment.exe
+C:\Users\Administrator\Desktop\Abhishek Chaudhary\DotNet\CSharpAssignment\CSharpAssignment\obj\Debug\CSharpAssignment.pdb
+D:\Training_Practise\CSharpAssignment\CSharpAssignment\obj\Debug\CSharpAssignment.csprojAssemblyReference.cache
+D:\Training_Practise\CSharpAssignment\CSharpAssignment\obj\Debug\CSharpAssignment.csproj.CoreCompileInputs.cache
+D:\Training_Practise\CSharpAssignment\CSharpAssignment\obj\Debug\CSharpAssignment.exe
+D:\Training_Practise\CSharpAssignment\CSharpAssignment\obj\Debug\CSharpAssignment.pdb
+D:\Training_Practise\CSharpAssignment\CSharpAssignment\bin\Debug\CSharpAssignment.exe.config
+D:\Training_Practise\CSharpAssignment\CSharpAssignment\bin\Debug\CSharpAssignment.exe
+D:\Training_Practise\CSharpAssignment\CSharpAssignment\bin\Debug\CSharpAssignment.pdb
